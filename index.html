@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/5f2f720d08.js" crossorigin="anonymous"></script>
     <title>CV Johan Duque</title>
+    
 </head>
 <body>
-    <h1>Hello World</h1>
+    <main>
+        <header>
+            <nav>
+                <h2>Johan Duque</h2>
+                <ul class="navigation-items">
+                    <li class="navigation-item">
+                        <a href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#contact">Contact</a>
+                    </li class="navigation-item">
+                    <li class="navigation-item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li onclick="darkMode()" class="dark-mode"> 
+                        <a class="dark-buttom"><i class="fa-solid fa-circle-half-stroke"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            <section id="aboutMe">
+                <div class="about-me-container">
+                    <div class="about-me-text-container">
+                        <h2> About Me</h2>
+                      <p>  Hi, Im Johan Duque. I have 1 year as FrontEnd Developer.<br> 
+                        Im empathic, pasionate and if I don't know something
+                        Im going to find the way to learn it.</p>
+        
+                    </div> 
+                     <img src="images/pcture.JPG" alt="profile picture Johan Duque" class="portrait">  
+                </div>
+                
+            </section>
+            
+            <section id="projects">
+                    <h2> Projects</h2>
+                    <details class="project">
+                       <summary>
+                            <strong>SwimSuit Page </strong> 
+                        </summary>
+                        <p>
+                            Here I was develop the web page of Kabu Swinsuits a Venezuelan
+                            company who sell across the entire country.<br>
+    
+                            it was created the catalog, online order and chatbox.<br>
+                            
+                        </p>
+                    </details>
+    
+                    <details class="project">
+                        <summary>
+                            <strong>Bateries Page </strong> 
+                        </summary>
+                    <p> 
+                        Here I created the web page and the online order.<br> 
+                    </p>
+                        </details>  
+                </section>
+            
+            <section id="contact">
+                    <h2> Contact</h2>
+                <div id="contact-container">
+                    <a href="https://wa.me/+34615208582" target="_blank" rel="noopenner noreferrer" class="contact-item"> <i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=johan.duque15@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-item"> <i class="fa-solid fa-envelope fa-2x"></i></a>
+                    <a href="https://github.com/johanduque15" target="_blank" rel="noopenner noreferrer" class="contact-item"> <i class="fa-brands fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/johan-duque-742338158/" target="_blank" rel="noopener noreferrer" class="contact-item"> <i class="fab fa-linkedin icon fa-2x"> </i> </a>
+                    
+                </div>
+            </section>
+        </header>
+    </main>
+   
 </body>
 </html>
